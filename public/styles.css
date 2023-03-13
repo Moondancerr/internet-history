@@ -1,0 +1,36 @@
+/* @author Armanjeet singh 3136363  */
+.background {
+    background-color: aqua;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .divider {
+    height: 3px;
+    margin: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    background-color: white;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .flex-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
